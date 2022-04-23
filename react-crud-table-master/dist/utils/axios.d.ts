@@ -1,0 +1,2 @@
+export declare type Method = 'get' | 'GET' | 'delete' | 'DELETE' | 'head' | 'HEAD' | 'options' | 'OPTIONS' | 'post' | 'POST' | 'put' | 'PUT' | 'patch' | 'PATCH' | 'update' | 'UPDATE';
+export declare const axiosApi: (url: string, method: "get" | "GET" | "delete" | "DELETE" | "head" | "HEAD" | "options" | "OPTIONS" | "post" | "POST" | "put" | "PUT" | "patch" | "PATCH" | "update" | "UPDATE" | undefined, data: any, options: any) => Promise<import("axios").AxiosResponse<any>>;
